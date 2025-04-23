@@ -1,4 +1,5 @@
 # ✈️ Airline API – Midterm Project
+> A midterm project developed for SE4458, implementing a fully functional RESTful airline ticketing API with JWT auth, paging, and Azure deployment.
 
 This is a RESTful Web API for managing airline ticketing operations such as flight scheduling, ticket purchasing, passenger check-in, and querying passenger lists. Developed as part of SE4458 Software Architecture & Design of Modern Large Scale Systems – Midterm.
 
@@ -24,6 +25,7 @@ This is a RESTful Web API for managing airline ticketing operations such as flig
 - Git + GitHub
 
 ## 🔐 Authentication
+> All endpoints requiring authentication are protected using JWT. Paging is supported where required.
 
 To use protected endpoints, first call:
 
