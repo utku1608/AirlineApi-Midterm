@@ -99,13 +99,14 @@ Protected endpoints:
 5. Check-in  
 6. Query passenger list
 
-## 🎥 Demo Video
+## 🎥  Video
 
-> [📹 Click to Watch the Demo](https://drive.google.com/your-demo-link)
+> [📹 Click to Watch the Video]([https://drive.google.com/your-demo-link](https://drive.google.com/file/d/1dWI0CeR0j5EOXHz10TBr00GClSuzw2_M/view?usp=drive_link))
 
 ## 🔗 Project Repository
 
 [👉 GitHub Repository](https://github.com/utku1608/AirlineApi-Midterm)
+
 [✅ Live Swagger Demo (Azure)](https://airline-api-utku123.azurewebsites.net/swagger/index.html)
 
 ## 👨‍💻 Developed by
