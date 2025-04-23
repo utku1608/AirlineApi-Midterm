@@ -10,6 +10,8 @@ This is a RESTful Web API for managing airline ticketing operations such as flig
 - Check-in passengers (assign seats)
 - List passengers (with paging support)
 - JWT-based authentication for protected endpoints
+- Swagger UI for testing
+- Hosted on Azure Web App
 
 ## 🚀 Technologies Used
 
@@ -18,6 +20,8 @@ This is a RESTful Web API for managing airline ticketing operations such as flig
 - JWT Authentication
 - Swagger (Swashbuckle)
 - Visual Studio Code
+- Azure App Service (for deployment)
+- Git + GitHub
 
 ## 🔐 Authentication
 
@@ -60,10 +64,15 @@ Protected endpoints:
 
 ## 🧠 Assumptions & Decisions
 
-- Seat numbers assigned as: `P1`, `P2`, `P3`, ...
-- All data is stored in memory (no DB used)
-- Only 1 static user for login (`admin / 1234`)
-- No ticket cancellation or update for simplicity
+-System supports only one-way (tek yönlü) flights.
+-Seat numbers are automatically assigned as: P1, P2, P3, ...
+-All data is stored in memory (no database used)
+-No cancel or update functionality for tickets
+-Only a single static user exists (admin / 1234)
+-Swagger is the only UI provided for manual testing
+-Authentication is done via JWT (manually coded)
+-Paging is supported for flight queries and passenger lists
+-Versioning is implemented in endpoints (ex: /api/v1/...)
 
 ## ✅ Example Test Sequence
 
@@ -78,9 +87,11 @@ Protected endpoints:
 
 > [📹 Click to Watch the Demo](https://drive.google.com/your-demo-link)
 
-## 🔗 Project Repository
+## 🔗 Project Links
 
 [👉 GitHub Repository](https://github.com/utku1608/AirlineApi-Midterm)
+[✅ Live Swagger Demo (Azure)](https://airline-api-utku123.azurewebsites.net/swagger/index.html)
+
 
 ## 👨‍💻 Developed by
 
