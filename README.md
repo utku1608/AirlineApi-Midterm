@@ -90,6 +90,7 @@ Protected endpoints:
 ## 🔗 Project Links
 
 [👉 GitHub Repository](https://github.com/utku1608/AirlineApi-Midterm)
+
 [✅ Live Swagger Demo (Azure)](https://airline-api-utku123.azurewebsites.net/swagger/index.html)
 
 
