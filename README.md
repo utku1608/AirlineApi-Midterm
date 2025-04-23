@@ -99,9 +99,9 @@ Protected endpoints:
 5. Check-in  
 6. Query passenger list
 
-## 🎥  Video
+## 🎥 Demo Video
 
-> [📹 Click to Watch the Video]([https://drive.google.com/your-demo-link](https://drive.google.com/file/d/1dWI0CeR0j5EOXHz10TBr00GClSuzw2_M/view?usp=drive_link))
+> [📹 Click to Watch the Demo](https://drive.google.com/file/d/1dWI0CeR0j5EOXHz10TBr00GClSuzw2_M/view)
 
 ## 🔗 Project Repository
 
