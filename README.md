@@ -58,6 +58,11 @@ Protected endpoints:
 | `/api/v1/flight/passengerlist`       | POST   | ✔️   | ✔️     | List checked-in passengers           |
 | `/api/v1/auth/login`                 | POST   | ❌   | ❌     | Get a JWT token                      |
 
+## 🗂 Data Model (ER)
+
+![ER Diagram](./er-diagram.png)
+
+
 ## 🧠 Assumptions & Decisions
 
 - Seat numbers assigned as: `P1`, `P2`, `P3`, ...
