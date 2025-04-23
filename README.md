@@ -1,4 +1,5 @@
 # ✈️ Airline API – Midterm Project
+> A midterm project developed for SE4458, implementing a fully functional RESTful airline ticketing API with JWT auth, paging, and Azure deployment.
 
 This is a RESTful Web API for managing airline ticketing operations such as flight scheduling, ticket purchasing, passenger check-in, and querying passenger lists. Developed as part of SE4458 Software Architecture & Design of Modern Large Scale Systems – Midterm.
 
@@ -10,6 +11,9 @@ This is a RESTful Web API for managing airline ticketing operations such as flig
 - Check-in passengers (assign seats)
 - List passengers (with paging support)
 - JWT-based authentication for protected endpoints
+- Swagger UI for testing
+- Hosted on Azure Web App
+
 
 ## 🚀 Technologies Used
 
@@ -18,8 +22,11 @@ This is a RESTful Web API for managing airline ticketing operations such as flig
 - JWT Authentication
 - Swagger (Swashbuckle)
 - Visual Studio Code
+- Azure App Service (for deployment)
+- Git + GitHub
 
 ## 🔐 Authentication
+> All endpoints requiring authentication are protected using JWT. Paging is supported where required.
 
 To use protected endpoints, first call:
 
@@ -65,10 +72,15 @@ Protected endpoints:
 
 ## 🧠 Assumptions & Decisions
 
-- Seat numbers assigned as: `P1`, `P2`, `P3`, ...
-- All data is stored in memory (no DB used)
-- Only 1 static user for login (`admin / 1234`)
-- No ticket cancellation or update for simplicity
+-System supports only one-way (tek yönlü) flights.
+-Seat numbers are automatically assigned as: P1, P2, P3, ...
+-All data is stored in memory (no database used)
+-No cancel or update functionality for tickets
+-Only a single static user exists (admin / 1234)
+-Swagger is the only UI provided for manual testing
+-Authentication is done via JWT (manually coded)
+-Paging is supported for flight queries and passenger lists
+-Versioning is implemented in endpoints (ex: /api/v1/...)
 
 ## ✅ Example Test Sequence
 
@@ -86,6 +98,7 @@ Protected endpoints:
 ## 🔗 Project Repository
 
 [👉 GitHub Repository](https://github.com/utku1608/AirlineApi-Midterm)
+[✅ Live Swagger Demo (Azure)](https://airline-api-utku123.azurewebsites.net/swagger/index.html)
 
 ## 👨‍💻 Developed by
 
