@@ -67,13 +67,21 @@ Protected endpoints:
 ## 🧠 Assumptions & Decisions
 
 -System supports only one-way (tek yönlü) flights.
+
 -Seat numbers are automatically assigned as: P1, P2, P3, ...
+
 -All data is stored in memory (no database used)
+
 -No cancel or update functionality for tickets
+
 -Only a single static user exists (admin / 1234)
+
 -Swagger is the only UI provided for manual testing
+
 -Authentication is done via JWT (manually coded)
+
 -Paging is supported for flight queries and passenger lists
+
 -Versioning is implemented in endpoints (ex: /api/v1/...)
 
 ## ✅ Example Test Sequence
